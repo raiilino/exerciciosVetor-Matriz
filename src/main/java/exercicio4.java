@@ -11,14 +11,14 @@ class Main4 {
             producaoTalhoes[i] = scanner.nextDouble();
         }
 
-        System.out.println(" \n--- Relatório de Produção --- ");
+        System.out.println("\n--- Relatório de Produção ---");
 
         for (int i = 0; i < 5; i++) {
             System.out.printf(" Talhão %d: %.2f\n ", (i + 1), producaoTalhoes[i]);
             totalGeral += producaoTalhoes[i];
         }
 
-        System.out.printf(" Total geral produzido: %.2f\n ", totalGeral);
+        System.out.printf("Total geral produzido: %.2f\n", totalGeral);
 
         scanner.close();
     }
